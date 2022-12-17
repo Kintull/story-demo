@@ -1,0 +1,108 @@
+<div class="container">
+  <div class="row">
+    <div class="h1 text-white text-center p-5">
+      A ROOM was discovered
+    </div>
+  </div>
+  <div class="row">
+    <img src={Routes.static_path(@conn, "/images/logo-cropped.png")} class="img-fluid" alt="image"/>
+  </div>
+  <div class="row">
+    <div class="h1 text-white text-left p-5">
+
+      <!-- 0 SECTION START -->
+      <p class="text-light step-0"> <span class="text-regular"> THE ROOM </span>
+      - You slowly walk into this spacious room. Something catches your eye in the far corner of the room.
+      </p>
+
+      <p id="enter" class="step-0 text-danger my-3" style="">Look closely</p>
+      <!-- 0 SECTION END -->
+
+      <!-- ENTER SECTION START -->
+      <p id="enter-start" class="text-light enter d-none">
+      You discover a secret treasure.
+      It is small, unassuming chest, intricately carved and adorned with ancient runes.
+      It is standing on a pedestal, surrounded by a halo of soft, glowing light.
+      <br/>
+      <br/>
+      As you approach, you can feel a powerful energy emanating from within.
+      <br/>
+      <br/>
+      The chest appears to be locked, and you don't have tools with you to open it right now.
+      <br/>
+      <br/>
+        The place might have booby-traps that you cannot see, what should you do?
+      </p>
+
+      <p id="gentle-pick" class="enter text-danger d-none" style="">Try to pick it gently</p>
+      <p id="run-pick" class="enter text-danger d-none" style="">Quickly grab and run to the exit</p>
+      <!-- ENTER SECTION END -->
+
+      <!-- RUN PICK SECTION START -->
+      <p id="run-pick-start" class="text-light run-pick d-none">
+        You quickly grab the treasure, your heart racing with excitement and adrenaline as you make a break for the exit.
+        <br/><br/>
+        Suddenly, the walls of the room begin to shake and crumble, and you can hear the ominous sound of stone grinding against stone. You frantically push through the collapsing debris, trying to outrun the destruction that seems to be following you.
+        <br/><br/>
+        Despite the chaos and danger, you are determined to escape with the treasure in hand. You dart and weave through the falling rubble, using all your speed and agility to keep ahead of the collapsing walls.
+        <br/><br/>
+        Just as you reach the exit, a large boulder comes crashing down, blocking your path. Your heart sinks, but you refuse to give up. You turn and run back the way you came, looking for another way out.
+        <br/><br/>
+        After a few tense moments of searching, you finally spot a narrow opening in the wall and make a desperate dash for it. You squeeze through the tight space just as the entire room comes crashing down, and you emerge on the other side, panting and covered in dust but otherwise unscathed.
+        <br/><br/>
+        As you make your way out of the crumbling ruins, you can't help but feel a sense of triumphant satisfaction. You may have barely escaped with your life, but you did it. You can't wait to see what is hidden inside this chest.
+      </p>
+      <p id="exit-run" class="run-pick text-danger d-none" style="">Continue</p>
+      <!-- RUN PICK SECTION END -->
+
+      <!-- GENTLE PICK SECTION START -->
+      <p id="gentle-pick-start" class="text-light gentle-pick d-none">
+        You hesitate for a moment, worried that the treasure may be booby-trapped in some way. But the temptation is too great, and you gingerly reach out to take the treasure.
+        <br/><br/>
+        Your hand closes around the cold metal of the chest, and you hold your breath as you lift it off the pedestal. But to your surprise, nothing happens. The room remains still and quiet.
+        <br/><br/>
+        Feeling a sense of relief, you make a break for the exit. But as you reach the doorway, the walls of the room begin to shake and crumble, and you can hear the ominous sound of stone grinding against stone. You frantically push through the collapsing debris, trying to outrun the destruction that seems to be following you.
+        <br/><br/>
+        Despite the chaos and danger, you are determined to escape with the treasure in hand. You dart and weave through the falling rubble, using all your speed and agility to keep ahead of the collapsing walls.
+        <br/><br/>
+        Just as you reach the exit, a large boulder comes crashing down, blocking your path. Your heart sinks, but you refuse to give up. You turn and run back the way you came, looking for another way out.
+        <br/><br/>
+        After a few tense moments of searching, you finally spot a narrow opening in the wall and make a desperate dash for it. You squeeze through the tight space just as the entire room comes crashing down, and you emerge on the other side, panting and covered in dust but otherwise unscathed.
+        <br/><br/>
+        As you make your way out of the crumbling ruins, you can't help but feel a sense of triumphant satisfaction. You may have barely escaped with your life, but you did it. You can't wait to see what is hidden inside this chest.
+      </p>
+      <p id="exit-gentle" class="gentle-pick text-danger d-none" style="">Continue</p>
+      <!-- GENTLE PICK SECTION END -->
+
+      <!-- EXIT SECTION START -->
+      <p id="exit-start" class="text-light exit d-none">
+        As you emerge from the cave, you are momentarily blinded by the bright sunlight. You pause for a moment to let your eyes adjust, taking in a deep breath of the fresh, clean air.
+        <br/><br/>
+        You look around and see that you are safe, at least for the moment. You see your tools lying nearby, abandoned in rush. You pick them up, feeling a sense of determination and excitement as you get the chest from your backpack.
+      </p>
+      <p id="open" class="exit text-danger d-none" style="">Pry open</p>
+      <!-- EXIT SECTION END -->
+
+      <!-- OPEN SECTION START -->
+      <p id="open-start" class="text-light open d-none">
+        With a steady hand, you carefully use the tools to pry open the chest. Inside, you find a glittering hoard of gold and jewels, far more valuable than you had ever imagined.
+        <br/><br/>
+        This is the fabled HPV vaccine, a powerful weapon against a deadly disease. It is said to be able to protect against a wide range of cancers, and is considered to be a great treasure among those who seek to protect their health and well-being.
+        <br/><br/>
+        <span class="text-bold text-italic"> ♧ ONE VACCINE WAS ADDED TO YOUR INVENTORY</span>
+        <br/><br/>
+      </p>
+      <!-- OPEN SECTION END -->
+    </div>
+  </div>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<link rel="preload" href="//db.onlinewebfonts.com/c/26392ff78d7bf29d383322f12217756f?family=HT+Sina+Nova" rel="stylesheet" type="text/css"/>
+<link rel="preload" href="//db.onlinewebfonts.com/c/fe5b7001c18c71f8072344cea2f497dc?family=SinaNovaW01-Light" rel="stylesheet" type="text/css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+<script>
+</script>
